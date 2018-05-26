@@ -406,9 +406,9 @@ if ( $wmgUseNewUserMessage ) {
 	wfLoadExtension( 'NewUserMessage' );
 }
 
-//if ( $wmgUseNewUsersList ) {
-//	wfLoadExtension( 'NewUsersList' );
-//}
+if ( $wmgUseNewUsersList ) {
+	wfLoadExtension( 'NewUsersList' );
+}
 
 if ( $wmgUseNostalgia ) {
 	wfLoadSkin( 'Nostalgia' );
