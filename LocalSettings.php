@@ -1132,12 +1132,14 @@ $wgConf->settings = array(
 	),
 	'wmgUseAddHTMLMetaAndTitle' => array(
 		'default' => false,
+		'alwikiwiki' => true,
 	),
 	'wmgUseAdminLinks' => array(
 		'default' => false,
 	),
 	'wmgUseAJAXPoll' => array(
 		'default' => false,
+		'alwikiwiki' => true,
 	),
 	'wmgUseApex' => array(
 		'default' => false,
@@ -1342,6 +1344,7 @@ $wgConf->settings = array(
 	),
 	'wmgUseMaps' => array(
 		'default' => false,
+		'alwikiwiki' => true,
 	),
 	'wmgUseMassEditRegex' => array(
 		'default' => false, // sysop is given permission 'masseditregex' by default
@@ -1427,6 +1430,7 @@ $wgConf->settings = array(
 	),
 	'wmgUseNoTitle' => array(
 		'default' => false,
+		'alwikiwiki' => true,
 	),
 	'wmgUseOpenGraphMeta' => array(
 		'default' => false,
@@ -1448,6 +1452,7 @@ $wgConf->settings = array(
 	),
 	'wmgUsePDFEmbed' => array(
 		'default' => false,
+		'alwikiwiki' => true,
 	),
 	'wmgUsePdfHandler' => array(
 		'default' => false,
@@ -1600,6 +1605,7 @@ $wgConf->settings = array(
 	),
 	'wmgUseWikiForum' => array(
 		'default' => false,
+		'alwikiwiki' => true,
 	),
 	'wmgUsewikihiero' => array(
 		'default' => false,
